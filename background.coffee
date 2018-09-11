@@ -6,3 +6,8 @@ render: (output) ->
            <link rel="stylesheet" type="text/css" href="/polybar/style.css" />
            <div class='screen'><div class='background' /></div>
          """
+
+style :
+  """
+    z-index: -1;
+  """

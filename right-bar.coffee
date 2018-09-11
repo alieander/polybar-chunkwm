@@ -25,8 +25,6 @@ refreshFrequency: 1000
 
 render: () ->
   """
-    <link rel="stylesheet" href="./polybar/assets/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="/polybar/style.css" />
     <div class='screen'>
       <div class='right'>
         <div class="volume">
@@ -68,8 +66,6 @@ render: () ->
   """
 
 update: (output) ->
-
-  console.log(output)
   output = output.split( /:::/g )
 
   battery  = output[0]
